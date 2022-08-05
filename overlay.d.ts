@@ -1,2 +1,2 @@
-declare const initOverlayOnce: () => void;
-export default initOverlayOnce;
+declare const overlay: string;
+export default overlay;
