@@ -1,3 +1,5 @@
-import { SwalOptions } from '../options';
-export declare const init: (opts: SwalOptions) => void;
-export default init;
+export interface ClassNameList {
+    [key: string]: string;
+}
+export declare const CLASS_NAMES: ClassNameList;
+export default CLASS_NAMES;
