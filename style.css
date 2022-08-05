@@ -1,0 +1,251 @@
+body {
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+ul {
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    margin-top: -5px;
+    width: 100%;
+    background-color: #b983ff;
+    margin-top: 5px;
+
+}
+
+li {
+    transition: 0.5s;
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+li a {
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+li a:hover,
+li:focus {
+    background-color: white;
+    color: purple;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+.navPage {
+    width: 100%;
+    float: left;
+    background-color: #94b3fd;
+    min-height: 300px;
+    padding: 10px;
+    color: white;
+}
+
+.navPage2 {
+    text-align: center;
+    width: 100%;
+    background-color: #b983ff;
+    min-height: 340px;
+    border-top: #b983ff;
+    color: white;
+    font-family: poppins;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+.navPage3 {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: #94b3fd;
+    min-height: 300px;
+    border-top: #b983ff;
+    color: white;
+    font-family: poppins;
+    margin-bottom: 5px;
+
+}
+
+.navPage3 p::first-letter {
+    font-size: 24px;
+}
+.navPage2 p::first-letter {
+    font-size: 24px;
+}
+
+
+
+footer {
+    background-color: #b983ff;
+    color: white;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Montserrat;
+    padding: 5px;
+}
+
+.knowpage {
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    margin: 0;
+    position: relative;
+
+}
+
+input {
+    padding: 9px;
+    border: 1px solid #b983ff;
+    outline-style: none;
+    background-color: aliceblue;
+    border-right: none;
+}
+
+button {
+    outline-style: none;
+    padding: 10px;
+    background-color: #b983ff;
+    width: 90px;
+    color: white;
+    border-left: none;
+    border: none;
+}
+
+img {
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 7px;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+}
+
+.slides {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #94b3fd;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.overlay-content a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    color: #b983ff;
+    display: block;
+
+
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.opennav {
+    position: relative;
+    cursor: pointer;
+
+}
+
+h4 {
+    color: #b983ff;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #99feff;
+
+    border-bottom: 1px #99feff;
+    text-align: center;
+}
+
+.newHr {
+    width: 100%;
+    border: 1px solid #b983ff;
+
+    border-bottom: 1px #99feff;
+    text-align: center;
+}
+
+#p {
+    font-size: 16px;
+    color: white;
+}
+
+
+
+@media screen and (max-width:650px) {
+    .navPage2 {
+        display: block;
+        position: relative;
+        width: 100%;
+
+    }
+
+}
+
+.fade-in {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
