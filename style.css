@@ -49,7 +49,7 @@ li:focus {
     width: 100%;
     float: left;
     background-color: #94b3fd;
-    min-height: 300px;
+    min-height: auto;
     padding: 10px;
     color: white;
 }
@@ -58,7 +58,7 @@ li:focus {
     text-align: center;
     width: 100%;
     background-color: #b983ff;
-    min-height: 340px;
+    min-height: auto;
     border-top: #b983ff;
     color: white;
     font-family: poppins;
@@ -72,7 +72,7 @@ li:focus {
     width: 100%;
     padding: 5px;
     background-color: #94b3fd;
-    min-height: 300px;
+    min-height: auto;
     border-top: #b983ff;
     color: white;
     font-family: poppins;
